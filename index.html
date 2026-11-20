@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#2b0d52">
+  <meta name="theme-color" content="#6d28d9">
   <title>Créditos Rápidos y Seguros</title>
   
   <style>
     :root {
-      --bg-gradient: linear-gradient(135deg, #1f0838 0%, #3b126b 50%, #5a1fa8 100%);
-      --card-bg: rgba(255, 255, 255, 0.07);
-      --card-border: rgba(255, 255, 255, 0.12);
-      --text-color: #f3eafa;
-      --text-muted: #d0bce6;
+      --bg-gradient: linear-gradient(135deg, #4c1d95 0%, #7c3aed 50%, #a855f7 100%);
+      --card-bg: rgba(255, 255, 255, 0.13);
+      --card-border: rgba(255, 255, 255, 0.24);
+      --text-color: #ffffff;
+      --text-muted: #f3e8ff;
       --blanco: #ffffff;
     }
 
@@ -46,16 +46,16 @@
       align-items: center;
       gap: 8px;
       padding: 10px 16px;
-      background: linear-gradient(135deg, rgba(168, 85, 247, 0.85), rgba(109, 40, 217, 0.85));
+      background: linear-gradient(135deg, rgba(192, 132, 252, 0.9), rgba(124, 58, 237, 0.9));
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.45);
       color: #ffffff;
       text-decoration: none;
       font-size: 0.85rem;
       font-weight: 700;
       border-radius: 50px;
-      box-shadow: 0 6px 20px rgba(168, 85, 247, 0.4);
+      box-shadow: 0 6px 20px rgba(76, 29, 149, 0.35);
       overflow: hidden;
       cursor: pointer;
       animation: pulso-der 2.5s infinite ease-in-out;
@@ -72,7 +72,7 @@
       background: linear-gradient(
         60deg,
         transparent 35%,
-        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0.35) 50%,
         transparent 65%
       );
       transform: rotate(30deg) translateX(-100%);
@@ -85,8 +85,8 @@
     }
 
     @keyframes pulso-der {
-      0%, 100% { transform: scale(1); box-shadow: 0 6px 20px rgba(168, 85, 247, 0.4); }
-      50% { transform: scale(1.03); box-shadow: 0 10px 25px rgba(168, 85, 247, 0.65); }
+      0%, 100% { transform: scale(1); box-shadow: 0 6px 20px rgba(76, 29, 149, 0.35); }
+      50% { transform: scale(1.03); box-shadow: 0 10px 25px rgba(76, 29, 149, 0.55); }
     }
 
     .btn-referencias-der:hover {
@@ -94,15 +94,15 @@
       opacity: 0.95;
     }
 
-    /* AVISO DISCRETO SI ENTRA DESDE FACEBOOK/MESSENGER */
+    /* AVISO DISCRETO SI ENTRA DESDE FACEBOOK / MESSENGER / WHATSAPP */
     .fb-warning-pill {
       display: none;
       align-items: center;
       justify-content: center;
       gap: 6px;
-      background: rgba(245, 158, 11, 0.18);
-      border: 1px solid rgba(245, 158, 11, 0.45);
-      color: #fde68a;
+      background: rgba(245, 158, 11, 0.24);
+      border: 1px solid rgba(253, 224, 71, 0.55);
+      color: #fef08a;
       font-size: 0.78rem;
       font-weight: 600;
       padding: 7px 14px;
@@ -120,7 +120,7 @@
       border: 1px solid var(--card-border);
       border-radius: 28px;
       padding: 36px 28px;
-      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+      box-shadow: 0 20px 45px rgba(46, 16, 101, 0.35);
       text-align: center;
       position: relative;
       overflow: hidden;
@@ -134,21 +134,21 @@
       transform: translateX(-50%);
       width: 60%;
       height: 4px;
-      background: linear-gradient(90deg, transparent, #b24be8, transparent);
+      background: linear-gradient(90deg, transparent, #e9d5ff, transparent);
     }
 
     .logo-icon {
       width: 80px;
       height: 80px;
       margin: 0 auto 20px;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.16);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 2.5rem;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 25px rgba(46, 16, 101, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.25);
       animation: flotar 3s ease-in-out infinite;
     }
 
@@ -164,7 +164,7 @@
       margin-bottom: 18px;
       color: var(--blanco);
       text-transform: uppercase;
-      text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      text-shadow: 0 2px 10px rgba(46, 16, 101, 0.3);
     }
 
     .descripcion {
@@ -173,24 +173,24 @@
       color: var(--text-muted);
       margin-bottom: 22px;
       text-align: left;
-      background: rgba(0, 0, 0, 0.15);
+      background: rgba(46, 16, 101, 0.22);
       padding: 16px 18px;
       border-radius: 14px;
-      border: 1px solid rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.14);
     }
 
     /* CAJA ESTÁTICA CON TAMAÑO FIJO */
     .toast-inline {
       width: 100%;
       height: 54px;
-      background: rgba(255, 255, 255, 0.95);
+      background: rgba(255, 255, 255, 0.96);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
-      color: #1f0838;
+      color: #2e1065;
       padding: 8px 14px;
       border-radius: 12px;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-      border: 1px solid rgba(168, 85, 247, 0.25);
+      box-shadow: 0 6px 16px rgba(46, 16, 101, 0.2);
+      border: 1px solid rgba(216, 180, 254, 0.5);
       display: flex;
       align-items: center;
       gap: 10px;
@@ -261,7 +261,7 @@
       text-decoration: none;
       text-align: center;
       transition: transform 0.14s ease, box-shadow 0.3s ease, opacity 0.3s ease;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 8px 20px rgba(46, 16, 101, 0.25);
       cursor: pointer;
       border: none;
       -webkit-tap-highlight-color: transparent;
@@ -272,19 +272,19 @@
     }
 
     .btn-2 {
-      background: linear-gradient(135deg, #4361ee, #3a0ca3);
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: linear-gradient(135deg, #4f46e5, #6d28d9);
+      border: 1px solid rgba(255, 255, 255, 0.28);
     }
 
     .btn-1 {
-      background: linear-gradient(135deg, #7209b7, #b5179e);
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: linear-gradient(135deg, #9333ea, #d946ef);
+      border: 1px solid rgba(255, 255, 255, 0.28);
     }
 
     .btn-solicitar:hover {
       transform: translateY(-3px);
-      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
-      opacity: 0.95;
+      box-shadow: 0 12px 28px rgba(46, 16, 101, 0.38);
+      opacity: 0.96;
     }
 
     .seguridad {
@@ -293,7 +293,7 @@
       justify-content: center;
       gap: 8px;
       font-size: 0.85rem;
-      color: #b8c1ec;
+      color: #f3e8ff;
       margin-top: 10px;
       font-weight: 500;
     }
@@ -301,7 +301,7 @@
     footer {
       margin-top: 24px;
       font-size: 0.75rem;
-      color: rgba(255, 255, 255, 0.4);
+      color: rgba(255, 255, 255, 0.75);
       text-align: center;
     }
 
@@ -309,7 +309,7 @@
     .modal-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(13, 4, 26, 0.86);
+      background: rgba(30, 10, 65, 0.82);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
       display: none;
@@ -326,12 +326,12 @@
     .modal-card {
       width: 100%;
       max-width: 410px;
-      background: linear-gradient(160deg, #2a0c4e, #190630);
-      border: 1px solid rgba(192, 132, 252, 0.35);
+      background: linear-gradient(160deg, #5b21b6, #3b0764);
+      border: 1px solid rgba(233, 213, 255, 0.4);
       border-radius: 24px;
       padding: 26px 22px;
       text-align: center;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 20px 50px rgba(30, 10, 65, 0.55);
       position: relative;
     }
 
@@ -339,7 +339,7 @@
       position: absolute;
       top: 14px;
       right: 16px;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.15);
       border: none;
       color: #fff;
       width: 30px;
@@ -351,9 +351,9 @@
 
     .modal-badge {
       display: inline-block;
-      background: rgba(16, 185, 129, 0.18);
-      border: 1px solid rgba(16, 185, 129, 0.45);
-      color: #6ee7b7;
+      background: rgba(16, 185, 129, 0.22);
+      border: 1px solid rgba(110, 231, 183, 0.55);
+      color: #a7f3d0;
       font-size: 0.75rem;
       font-weight: 700;
       padding: 5px 12px;
@@ -370,18 +370,18 @@
 
     .modal-sub {
       font-size: 0.88rem;
-      color: #d0bce6;
+      color: #f3e8ff;
       line-height: 1.45;
       margin-bottom: 16px;
     }
 
     .modal-link-box {
-      background: rgba(0, 0, 0, 0.35);
-      border: 1px solid rgba(168, 85, 247, 0.4);
+      background: rgba(30, 10, 65, 0.45);
+      border: 1px solid rgba(216, 180, 254, 0.45);
       border-radius: 12px;
       padding: 10px 12px;
       font-size: 0.8rem;
-      color: #e9d5ff;
+      color: #f5d0fe;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -410,11 +410,11 @@
 
     .modal-steps {
       text-align: left;
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(255, 255, 255, 0.08);
       border-radius: 12px;
       padding: 12px 14px;
       font-size: 0.82rem;
-      color: #e2d4f0;
+      color: #f3e8ff;
       line-height: 1.55;
     }
   </style>
@@ -426,9 +426,9 @@
     <span>⭐</span> Referencias
   </a>
 
-  <!-- AVISO AUTOMÁTICO SOLO SI ABRE DESDE FACEBOOK / MESSENGER -->
+  <!-- AVISO AUTOMÁTICO SI ABRE DESDE FACEBOOK / MESSENGER / WHATSAPP -->
   <div id="fb-warning" class="fb-warning-pill">
-    ⚠️ Navegador de Facebook/Messenger detectado • Redirección a Google Chrome activa
+    ⚠️ Navegador interno detectado • Redirección a Google Chrome activa
   </div>
 
   <div class="landing-container">
@@ -444,7 +444,7 @@
     <div id="live-notification" class="toast-inline">
       <div class="punto-verde"></div>
       <div style="line-height: 1.25; width: 100%;">
-        <p id="notif-text" style="font-size: 0.78rem; font-weight: 600; color: #1f0838; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        <p id="notif-text" style="font-size: 0.78rem; font-weight: 600; color: #2e1065; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
           <strong>María G.</strong> envió una solicitud por <span class="monto-destacado">$4,500 MXN</span>
         </p>
         <p id="notif-time" style="font-size: 0.65rem; color: #059669; font-weight: 500; margin-top: 2px;">
@@ -481,7 +481,7 @@
         📋 COPIAR ENLACE DE NUEVO
       </button>
       <div class="modal-steps">
-        <strong>1.</strong> Sal de Messenger/Facebook.<br>
+        <strong>1.</strong> Sal de Facebook, Messenger o WhatsApp.<br>
         <strong>2.</strong> Abre la app de <strong>Google Chrome</strong> o <strong>Safari</strong>.<br>
         <strong>3.</strong> <strong>Pega el enlace</strong> en la barra de direcciones y entra.
       </div>
@@ -490,10 +490,10 @@
 
   <script>
     // =========================================================================
-    // 1. DETECCIÓN DE NAVEGADOR INTEGRADO (FACEBOOK / MESSENGER / INSTAGRAM)
+    // 1. DETECCIÓN DE NAVEGADOR INTEGRADO (FACEBOOK / MESSENGER / WHATSAPP / IG)
     // =========================================================================
     const ua = navigator.userAgent || navigator.vendor || window.opera || "";
-    const esNavegadorSocial = /FBAN|FBAV|FB_IAB|FBIOS|Messenger|Instagram|Line|Twitter|Snapchat/i.test(ua);
+    const esNavegadorSocial = /FBAN|FBAV|FB_IAB|FBIOS|Messenger|WhatsApp|WA_IAB|Instagram|Line|Twitter|Snapchat/i.test(ua);
     const esAndroid = /Android/i.test(ua);
     const esIOS = /iPhone|iPad|iPod/i.test(ua);
 
@@ -526,18 +526,17 @@
     }
 
     function manejarSolicitud(event, urlDestino) {
-      // Si NO viene de Facebook/Messenger, abre normal sin hacer nada extra
+      // Si NO viene de Facebook, Messenger o WhatsApp, abre normal sin hacer nada extra
       if (!esNavegadorSocial) {
         return true;
       }
 
-      // Si viene de Facebook o Messenger: interceptamos, copiamos y sacamos a Chrome/Safari
+      // Si viene de Facebook, Messenger o WhatsApp: interceptamos, copiamos y sacamos a Chrome/Safari
       event.preventDefault();
-      enlaceActual = urlDestino;
-      copiarAlPortapapeles(urlDestino);
-
-      // Limpiamos doble diagonal por si acaso en el path sin romper https://
       const urlLimpia = urlDestino.replace(/([^:]\/)\/+/g, "$1");
+      enlaceActual = urlLimpia;
+      copiarAlPortapapeles(urlLimpia);
+
       const urlSinProtocolo = urlLimpia.replace(/^https?:\/\//, "");
       const fallbackCodificado = encodeURIComponent(urlLimpia);
 
@@ -546,7 +545,7 @@
         const intentUrl = `intent://${urlSinProtocolo}#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${fallbackCodificado};end`;
         window.location.href = intentUrl;
 
-        // Si después de 1.5s sigue dentro de Facebook/Messenger, mostramos el respaldo visual
+        // Si después de 1.5s sigue dentro de la app, mostramos el respaldo visual
         setTimeout(() => {
           if (!document.hidden) {
             abrirModalRespaldo(urlLimpia);
@@ -637,5 +636,4 @@
   </script>
 
 </body>
-                                                                                                      </html>
-                                                                                                      
+</html>
