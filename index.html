@@ -493,7 +493,19 @@
     // 1. DETECCIÓN DE NAVEGADOR INTEGRADO (FACEBOOK / MESSENGER / WHATSAPP / IG)
     // =========================================================================
     const ua = navigator.userAgent || navigator.vendor || window.opera || "";
-    const esNavegadorSocial = /FBAN|FBAV|FB_IAB|FBIOS|Messenger|WhatsApp|WA_IAB|Instagram|Line|Twitter|Snapchat/i.test(ua);
+    const ref = document.referrer || "";
+    const queryStr = window.location.search || "";
+
+    const esWhatsApp = /WhatsApp|WA_IAB|WA\/|chat\.whatsapp\.com|wa\.me|whatsapp\.com/i.test(ua)
+      || /whatsapp\.com|wa\.me/i.test(ref)
+      || /whatsapp/i.test(queryStr);
+
+    const esWebViewGenerico = /\bwv\b|WebView|Android.*Version\/[\d.]+.*Chrome\/[\d.]+ Mobile Safari/i.test(ua);
+
+    const esNavegadorSocial = esWhatsApp
+      || esWebViewGenerico
+      || /FBAN|FBAV|FB_IAB|FBIOS|Messenger|Instagram|Line|Twitter|Snapchat/i.test(ua);
+
     const esAndroid = /Android/i.test(ua);
     const esIOS = /iPhone|iPad|iPod/i.test(ua);
 
